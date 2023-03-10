@@ -21,14 +21,14 @@
 public class Start {
     public static void main(String[] args) {
 
-        long firstNum = 0, secondNum = 1, tempNumber;
-        System.out.println(firstNum + "\n" + secondNum);
+            long num1o = 0, num2o = 1, numParcial;
+        System.out.println(num1o + "\n" + num2o);
 
         for (int i = 0; i < 48; i++) {
-            tempNumber = firstNum + secondNum;
-            System.out.println(tempNumber);
-            firstNum = secondNum;
-            secondNum = tempNumber;
+            numParcial = num1o + num2o;
+            System.out.println(numParcial);
+            num1o = num2o;
+            num2o = numParcial;
         }
 
     }
